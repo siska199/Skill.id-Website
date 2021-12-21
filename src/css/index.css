@@ -1,0 +1,83 @@
+.nav-logo{
+    color: rgb(27, 27, 121) !important;
+    font-weight: 700 !important;
+    font-size: 23px !important;
+}
+.nav-link{
+    color: rgb(80, 80, 192) !important;
+    font-weight: 600 !important;
+}
+
+.btn-auth{
+    border: 2px solid #f7876a;
+    background-color: white;
+    color : #f7876a;
+    border-radius: 5px;
+}
+
+.container-banner{
+    display: flex;
+    flex-direction: row;
+
+}
+.img-container{
+    height: 45vh !important;
+    background-size: auto;
+}
+
+.img-banner{
+    object-fit: cover;
+    object-position: 0% 25%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.arrow{
+    font-size: 27px;
+    font-weight: 700 !important;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow:hover{
+    transform: scale(1.1);
+}
+.search-icon{
+    color: grey !important;
+}
+.inp-search{
+    /* outline: none; */
+    width: 90%;
+    outline: none;
+    border: none;
+}
+.btn-find-course{
+    background-color: #f7876a;
+    border: 3px solid #f7876a;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.course-price{
+    font-size: 20px;
+    color : #f7876a;
+}
+.btn-course{
+    background-color: none;
+    border: 2px solid #f7876a;
+    width: 100%;
+    color : #f7876a;
+}
+.btn-course:hover{
+    color : #f7876a;
+
+}
+.img-course{
+    object-fit: cover;
+    object-position: 0% 10%;
+    width: 100%;
+    height: 200px;
+}
