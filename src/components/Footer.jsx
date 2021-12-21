@@ -18,7 +18,7 @@ export default function Footer() {
                 </div>
 
                 <div className="row my-4">
-                    <Col xl={6} className="d-flex">
+                    <Col xl={6} md={6} sm={12} xs={12} className="d-flex align-items-center ">
                         <div className="footer-text-menu">
                             Home
                         </div>
@@ -33,7 +33,7 @@ export default function Footer() {
                         </div>
                     </Col>
 
-                    <Col xl={6} className="d-flex justify-content-end">
+                    <Col xl={6} md={6} sm={12} xs={12} className="d-flex align-items-center justify-content-lg-end  justify-content-md-end">
                         <div className="footer-icon-sosmed">
                             <BsInstagram/>
                         </div>
@@ -50,7 +50,7 @@ export default function Footer() {
                 </div>
 
                 <div className='row'>
-                    <Col xl={4}>
+                    <Col className="mb-4" xl={4} md={4}>
                         <h4>Contact</h4>
                         <p>PT. Global Retail bersama</p>
                         <p>Jl. Cidadol Raya No 40 Kabupaten Lma, Jakarta Selatan 12220</p>
@@ -58,10 +58,10 @@ export default function Footer() {
                         <p>info@skills.id</p>
                     </Col>
 
-                    <Col  xl={{offset:1, span:4}}>
+                    <Col className="mb-4" xl={{offset:1, span:4}} md={{offset:1, span:4}}>
                         <h4>Category</h4>
                         <div className="row mt-3">
-                            <Col className="category" xl={6}>
+                            <Col className="category" xl={6} md={6} sm={6} xs={6}>
                                 <p>Music</p>
                                 <p>Art and Craft</p>
                                 <p>Food and Brownies</p>
@@ -69,7 +69,7 @@ export default function Footer() {
                                 <p>Photography</p>
                                 <p>Sport</p>
                             </Col>
-                            <Col className="category" xl={6}>
+                            <Col className="category" xl={6} md={6} sm={6} xs={6}>
                                 <p>Music</p>
                                 <p>Art and Craft</p>
                                 <p>Food and Brownies</p>
@@ -80,17 +80,17 @@ export default function Footer() {
                         </div>
                     </Col>
 
-                    <Col  xl={{span:3}} className="ps-4">
-                        <div className="ms-5 ps-1 ">
+                    <Col  xl={{span:3}} md={{span:3}} className="mb-4">
+                        <div className="container-branch">
                             <h4>Branch</h4>
                             <div className='row mt-3'>
-                                <Col xl={6}>
+                                <Col xl={6} md={6} sm={6} xs={6}>
                                     <p>Jakarta</p>
                                     <p>Tanggerang</p>
                                     <p>Bekasi</p>
                                     <p>Medn</p>
                                 </Col>
-                                <Col xl={6}>
+                                <Col xl={6} md={6} sm={6} xs={6}>
                                     <p>Bali</p>
                                     <p>Surabaya</p>
                                     <p>Bandung</p>
