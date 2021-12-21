@@ -41,17 +41,17 @@ export default function BannerCoursel() {
     return (
         <div className="container-fluid mt-5">
             <div className="row justify-content-center align-items-center">
-                <Col xl={1} className="d-flex align-items-center justify-content-end">
+                <Col xl={1} md={1} sm={1} xs={1} className="d-flex align-items-center justify-content-end">
                     <div className="arrow  shadow-lg">
                         <AiOutlineLeft onClick={() => leftImage()}/>
                     </div>
                 </Col>
 
-                <Col xl={9} className="img-container">
+                <Col xl={9} md={9} sm={9} xs={9} className="img-container">
                     <img src={banners[indexBanner]} alt="" className="img-fluid img-banner"/>
                 </Col>
 
-                <Col xl={1}>
+                <Col xl={1}  md={1} sm={1} xs={1}>
                     <div className="arrow shadow-lg">
                         <AiOutlineRight onClick={() => rightImage()}/>
                     </div>
