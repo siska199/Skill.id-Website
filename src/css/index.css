@@ -15,6 +15,10 @@
     border-radius: 5px;
 }
 
+.btn-auth:hover{
+    transform: scale(1.1);
+}
+
 .container-banner{
     display: flex;
     flex-direction: row;
@@ -75,11 +79,14 @@
 }
 .btn-course:hover{
     color : #f7876a;
+    transition: all 0.5s ease-in-out;
+    transform : scale(1.1)
 
 }
 .card {
     border-radius: 10px !important;
 }
+
 
 .img-course{
     object-fit: cover;
@@ -91,4 +98,27 @@
 
 .footer-container{
     color: white;
+}
+
+.footer-title-icon{
+    font-size: 40px;
+}
+.footer-text-menu{
+    margin-right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-icon-sosmed{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.footer-icon-sosmed:hover{
+    transform: scale(1.1);
+}
+
+.category p{
+    cursor:pointer;
 }
