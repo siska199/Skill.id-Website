@@ -7,7 +7,6 @@ import Footer from './../components/Footer';
 export default function LandingPage() {
     return (
         <div>
-            <NavbarComponent/>
             <BannerCoursel/>
             <Search/>
             <GroupCard/>

@@ -123,6 +123,24 @@
 .category p{
     cursor:pointer;
 }
+
+.container-auth{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-login{
+    width: 100%;
+}
+.form-input{
+    width:100%;
+    outline: none;
+    border: 2px solid rgb(160, 156, 156);
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+}
 @media (max-width: 479px) {
     .inp-search {
         width : 70%;
