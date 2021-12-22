@@ -29,7 +29,6 @@ export default function Login() {
             }
 
             const res = await axios.post('https://tasklogin.herokuapp.com/api/login', formValue)
-            console.log(res)
             if(res.data.code==200){
                 history.push('/')
                 setDataUser({

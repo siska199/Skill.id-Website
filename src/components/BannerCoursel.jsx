@@ -17,7 +17,6 @@ export default function BannerCoursel() {
     const [indexBanner, setIndexBanner] = useState(0)
     const leftImage = () => {
         const index = banners.findIndex((banner) => banner == banners[indexBanner]);
-        console.log("find index left: ", index)
         if (index == 0) {
           setIndexBanner(banners.length - 1);
         } else {
@@ -27,7 +26,6 @@ export default function BannerCoursel() {
 
       const rightImage = () => {
         const index = banners.findIndex((banner) => banner == banners[indexBanner]);
-        console.log("find index right: ", index)
         if (index + 1 == banners.length) {
             setIndexBanner(0);
         } else {
