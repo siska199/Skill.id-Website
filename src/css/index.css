@@ -25,7 +25,7 @@
 
 }
 .img-container{
-    height: 45vh !important;
+    height: 50vh !important;
     background-size: auto;
 }
 
@@ -139,8 +139,26 @@
     border: 2px solid rgb(160, 156, 156);
     border-radius: 5px;
     height: 40px;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
+.pass-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    outline: none;
+    border: 2px solid rgb(160, 156, 156);
+    border-radius: 5px;
+    height: 40px;
+    padding: 0px 10px;
+}
+.password-input{
+    width : 90%;
+    height:100%;
+    outline: none;
+    border: none;
+}
+
 @media (max-width: 479px) {
     .inp-search {
         width : 70%;

@@ -23,7 +23,6 @@ export default function BannerCoursel() {
         } else {
           setIndexBanner(index-1);
         }
-        console.log("Banner: ",indexBanner)
       };
 
       const rightImage = () => {
@@ -34,7 +33,6 @@ export default function BannerCoursel() {
         } else {
             setIndexBanner(index + 1);
         }
-        console.log("Banner: ",indexBanner)
 
       };
 

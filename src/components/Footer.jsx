@@ -13,7 +13,10 @@ export default function Footer() {
                 <div className="row">
                     <Col xl={12} className="d-flex ">
                         <img src={icon} style={{width:"60px", height:"60px"}} className="img-fluid" alt="" />
-                        <div className="footer-title-icon ms-2"> Skills.id</div>
+                        <div className="footer-title-icon ms-2"> 
+                            <span style={{"color":"#61C29F"}}>Skills</span>
+                            <span style={{"color":"#EF3972"}}>.id</span>
+                        </div>
                     </Col>
                 </div>
 

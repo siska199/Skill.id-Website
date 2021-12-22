@@ -1,4 +1,3 @@
-import NavbarComponent from "../components/Navbar";
 import BannerCoursel from './../components/BannerCoursel';
 import Search from './../components/Search';
 import GroupCard from './../components/GroupCard';
