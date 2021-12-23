@@ -19,6 +19,10 @@ export default function Login() {
     let history = useHistory()
 
     const [see, setSee] =useState(false)
+    const handleRemeberme = ()=>{
+
+    }
+
     const handelOnSubmit = async (e) =>{
         e.preventDefault()
         try {
@@ -35,6 +39,8 @@ export default function Login() {
                     isLogin:true,
                     status :'user'
                 })
+                //Save data user in localstorage:
+                console.log(res)
             }else{
                 setFail(true)
                 setTimeout(()=>{
@@ -75,7 +81,7 @@ export default function Login() {
                         </div>
                         <div className="mb-3 form-check ms-3">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                            <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
+                            <label style={{"cursor":"pointer"}} onClick={()=>handleRemeberme()} className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
                         </div>
                         <div className="mb-3">
                             <button type="submit" className="btn btn-success btn-login">Submit</button>
